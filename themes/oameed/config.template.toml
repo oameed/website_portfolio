@@ -1,0 +1,20 @@
+baseURL      = "http://example.org/"
+languageCode = "en-us"
+title        = "user name"
+theme        = "oameed"
+
+[params]
+ user        = "User Name"
+ LinkedIn    = ""
+ Scholar     = ""
+ Orcid       = ""
+ GitLab      = ""
+ GitHub      = ""
+ IEEE        = ""
+ RG          = ""
+ SS          = ""
+ AEDU        = ""
+ PWC         = ""
+ DAI         = ""
+ 
+

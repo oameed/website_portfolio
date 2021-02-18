@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<!-- section -->
+<div class="section-one">
+ <h1> Publications </h1>
+
+ <!-- item -->
+ <div id="one-1" class="section-one-info-block">
+  <a href="https://arxiv.org/abs/2102.06171" target="_blank"><img class="icon" src="pub1.jpg" width="320" height="180" title="view on arXiv"></a>
+  <h3> High-Performance Large-Scale Image Recognition Without Normalization
+       <a href="https://github.com/deepmind/deepmind-research/tree/master/nfnets" target="_blank"><img src="../../github.png" width="20" height="20"></a>
+  </h3>
+  <p> </p>
+  <p> <b>Abstract: </b>  Batch normalization is a key component of most image classification models, but it has many undesirable 
+                          properties stemming from its dependence on the batch size and interactions between examples. Although recent
+                          work has succeeded in training deep ResNets without normalization layers, these models do not match the test 
+                          accuracies of the best batch-normalized networks, and are often unstable for large learning rates or strong 
+                          data augmentations. In this work, we develop an adaptive gradient clipping technique which overcomes these 
+                          instabilities, and design a significantly improved class of Normalizer-Free ResNets. Our smaller models match 
+                          the test accuracy of an EfficientNet-B7 on ImageNet while being up to 8.7x faster to train, and our largest models 
+                          attain a new state-of-the-art top-1 accuracy of 86.5%. In addition, Normalizer-Free models attain significantly better
+                          performance than their batch-normalized counterparts when finetuning on ImageNet after large-scale pre-training on a 
+                          dataset of 300 million labeled images, with our best models obtaining an accuracy of 89.2%.
+  </p>
+ </div>
+ <!-- item -->
+ <div id="one-2" class="section-one-info-block">
+  <a href="https://arxiv.org/abs/2102.06171" target="_blank"><img class="icon" src="pub1.jpg" width="320" height="180" title="view on arXiv"></a>
+  <h3> High-Performance Large-Scale Image Recognition Without Normalization
+       <a href="https://github.com/deepmind/deepmind-research/tree/master/nfnets" target="_blank"><img src="../../github.png" width="20" height="20"></a>
+  </h3>
+  <p> </p>
+  <p> <b>Abstract: </b>  Batch normalization is a key component of most image classification models, but it has many undesirable 
+                          properties stemming from its dependence on the batch size and interactions between examples. Although recent
+                          work has succeeded in training deep ResNets without normalization layers, these models do not match the test 
+                          accuracies of the best batch-normalized networks, and are often unstable for large learning rates or strong 
+                          data augmentations. In this work, we develop an adaptive gradient clipping technique which overcomes these 
+                          instabilities, and design a significantly improved class of Normalizer-Free ResNets. Our smaller models match 
+                          the test accuracy of an EfficientNet-B7 on ImageNet while being up to 8.7x faster to train, and our largest models 
+                          attain a new state-of-the-art top-1 accuracy of 86.5%. In addition, Normalizer-Free models attain significantly better
+                          performance than their batch-normalized counterparts when finetuning on ImageNet after large-scale pre-training on a 
+                          dataset of 300 million labeled images, with our best models obtaining an accuracy of 89.2%.
+  </p>
+ </div>
+
+</div>
+
+<!-- section -->
+<div class="section-two">
+ <h1>Projects</h1>
+
+ <!-- item -->
+  <div id="two-1" class="section-two-info-block">
+   <a href="https://github.com/deepmind/ferminet" target="_blank"><img class="icon" src="prj1.jpg" width="266" height="180" title="view on GitHub"></a>
+   <span class="machinelearning">Deep Learning</span> <span class="personalproject">personal project</span>
+   <h3> FermiNet: Fermionic Neural Network </h3>
+   <p> An implementation of the algorithm and experiments defined in "Ab-Initio Solution of the Many-Electron Schroedinger Equation 
+       with Deep Neural Networks", David Pfau, James S. Spencer, Alex G de G Matthews and W.M.C. Foulkes, Phys. Rev. Research 2, 
+       033429 (2020). FermiNet is a neural network for learning the ground state wavefunctions of atoms and molecules using a variational 
+       Monte Carlo approach.
+   </p>
+  </div>
+
+ <!-- item -->
+  <div id="two-2" class="section-two-info-block">
+   <a href="https://github.com/deepmind/ferminet" target="_blank"><img class="icon" src="prj1.jpg" width="266" height="180" title="view on GitHub"></a>
+   <span class="machinelearning">Deep Learning</span> <span class="courseproject">course project</span>
+   <h3> FermiNet: Fermionic Neural Network </h3>
+   <p> An implementation of the algorithm and experiments defined in "Ab-Initio Solution of the Many-Electron Schroedinger Equation 
+       with Deep Neural Networks", David Pfau, James S. Spencer, Alex G de G Matthews and W.M.C. Foulkes, Phys. Rev. Research 2, 
+       033429 (2020). FermiNet is a neural network for learning the ground state wavefunctions of atoms and molecules using a variational 
+       Monte Carlo approach.
+   </p>
+  </div>
+  
+</div>  
+
+{{ end }}
