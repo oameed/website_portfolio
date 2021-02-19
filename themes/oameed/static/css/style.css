@@ -6,13 +6,13 @@
 }
 
 .name {
- position        : absolute                     ;
- top             : 400px                        ;
- left            : 50%                          ;
- transform       : translate(-50%, -50%)        ;
- font            : 50px "Times New Roman", serif;
- border-style    : solid                        ; 
- background-color: white                        ;
+ position        : absolute                        ;
+ top             : 400px                           ;
+ left            : 50%                             ;
+ transform       : translate(-50%, -50%)           ;
+ font            : 3vw "Times New Roman", serif    ;
+ border-style    : solid                           ; 
+ background-color: white                           ;
 }
 
 .hribbon{
@@ -36,19 +36,21 @@
 }
 
 img.icon{
+ width : auto      ;
+ height: 100%      ;
  float : left      ;
  margin: 0 15px 0 0;
 }
 
 .section-one {
- position   : absolute                ;
- left       : 50px                    ;  
- width      : calc(100% - 100px)      ;
- margin     : 10px 0 0    0           ;
- padding    : 25px 0 25px 25px        ;
- height     : 600px                   ;
- border     : 2px solid Black         ;
- font-family: "Times New Roman", serif;
+ position   : absolute                    ;
+ left       : 50px                        ;   
+ width      : calc(100% - 100px)          ;
+ margin     : 10px 0 0    0               ;
+ padding    : 25px 0 25px 25px            ;
+ height     : 600px                       ;
+ border     : 2px solid Black             ;
+ font       : 1vw "Times New Roman", serif;
 }
 
 .section-one-info-block {
@@ -63,15 +65,15 @@ img.icon{
 }
 
 .section-two {
- position   : absolute                ;
- top        : 610px                   ;
- left       : 50px                    ;  
- width      : calc(100% - 100px)      ;
- margin     : 10px 0 0    0           ;
- padding    : 25px 0 25px 25px        ;
- height     : 600px                   ;
- border     : 2px solid Black         ;
- font-family: "Times New Roman", serif;
+ position   : absolute                    ;
+ top        : 610px                       ;
+ left       : 50px                        ;   
+ width      : calc(100% - 100px)          ;
+ margin     : 10px 0 0    0               ;
+ padding    : 25px 0 25px 25px            ;
+ height     : 600px                       ;
+ border     : 2px solid Black             ;
+ font       : 1vw "Times New Roman", serif;
 }
 
 .section-two-info-block {
@@ -87,21 +89,21 @@ img.icon{
 
 
 .machinelearning {
- font-size: 14px           ;
+ font-size: 0.9vw          ;
  border   : 1px solid Blue ;
  color    :           Blue ;
  padding  : 2px 2px 2px 2px;
 }
 
 .personalproject {
- font-size: 14px           ;
+ font-size: 0.9vw          ;
  border   : 1px solid Red  ;
  color    :           Red  ;
  padding  : 2px 2px 2px 2px;
 }
 
 .courseproject {
- font-size: 14px           ;
+ font-size: 0.9vw          ;
  border   : 1px solid Green;
  color    :           Green;
  padding  : 2px 2px 2px 2px;
