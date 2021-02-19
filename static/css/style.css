@@ -1,0 +1,139 @@
+.header {
+ width          : 100%               ;
+ height         : 350px              ;
+ background     : url("../cover.jpg");
+ background-size: cover              ;
+}
+
+.name {
+ position        : absolute                        ;
+ top             : 350px                           ;
+ left            : 50%                             ;
+ transform       : translate(-50%, -50%)           ;
+ font            : 1vw "Times New Roman", serif    ;
+ border-style    : solid                           ; 
+ background-color: white                           ;
+}
+
+.hribbon{
+ text-align: center     ;
+ height    : 100px      ;
+ padding   : 60px 0 0 0 ;
+}
+
+.fribbon {
+ text-align: center        ;
+ margin    : 20px 0 20px 0 ;
+}
+
+.footer {
+ text-align: center;
+}
+
+#content {
+ position: relative;
+ height  : 1600px  ;                             /*tune         */
+/* background-color: Gray;                       /*for debugging*/
+}
+
+img.icon{
+ max-width : 18vw      ;
+ width     : 100%      ;
+ height    : auto      ;
+ float     : left      ;
+ margin    : 0 15px 0 0;
+}
+
+.section-one {
+ position   : absolute                      ;
+ left       : 50px                          ;    
+ width      : calc(100% - 100px)            ;
+ margin     : 10px 0 0    0                 ;
+ padding    : 25px 0 25px 25px              ;
+ height     : 350px                         ;    /*tune*/
+ border     : 2px solid Black               ;
+ font       : 1.2vw "Times New Roman", serif;
+}
+
+.section-one-info-block {
+ position  : relative          ;
+ left      : 50px              ;
+ width     : calc(100% - 100px);
+ height    : 220px             ;
+ margin    : 10px 0 0    0     ;
+ padding   : 10px 0 10px 0     ;
+ display   : block             ; 
+ text-align: justify           ;
+}
+
+.section-two {
+ position   : absolute                      ;
+ top        : 360px                         ;
+ left       : 50px                          ;    
+ width      : calc(100% - 100px)            ;
+ margin     : 10px 0 0    0                 ;
+ padding    : 25px 0 25px 25px              ;
+ height     : 1200px                         ;      /*tune*/
+ border     : 2px solid Black               ;
+ font       : 1.2vw "Times New Roman", serif;
+}
+
+.section-two-info-block {
+ position  : relative          ;
+ left      : 50px              ;
+ width     : calc(100% - 100px);
+ height    : 200px             ;
+ margin    : 10px 0 0 0        ;
+ padding   : 10px 0 0 0        ;
+ display   : block             ; 
+ text-align: justify           ;
+}
+
+.section-two-info-block-special {
+ position  : relative          ;
+ left      : 50px              ;
+ width     : calc(100% - 100px);
+ height    : 250px             ;
+ margin    : 10px 0 0 0        ;
+ padding   : 10px 0 0 0        ;
+ display   : block             ; 
+ text-align: justify           ;
+}
+
+
+.machinelearning {
+ font-size: 0.9vw          ;
+ border   : 1px solid Blue ;
+ color    :           Blue ;
+ padding  : 2px 2px 2px 2px;
+}
+
+.cem {
+ font-size: 0.9vw             ;
+ border   : 1px solid #800080 ;
+ color    :           #800080 ;
+ padding  : 2px 2px 2px 2px   ;
+}
+
+.sigp {
+ font-size: 0.9vw             ;
+ border   : 1px solid #8A2BE2 ;
+ color    :           #8A2BE2 ;
+ padding  : 2px 2px 2px 2px   ;
+}
+
+.personalproject {
+ font-size: 0.9vw          ;
+ border   : 1px solid Red  ;
+ color    :           Red  ;
+ padding  : 2px 2px 2px 2px;
+}
+
+.courseproject {
+ font-size: 0.9vw          ;
+ border   : 1px solid Green;
+ color    :           Green;
+ padding  : 2px 2px 2px 2px;
+}
+
+
