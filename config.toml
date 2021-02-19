@@ -1,4 +1,4 @@
-baseURL      = "https://oameed.github.io/"
+baseURL      = "http://example.org/"
 languageCode = "en-us"
 title        = "oameed noakoasteen"
 theme        = "oameed"

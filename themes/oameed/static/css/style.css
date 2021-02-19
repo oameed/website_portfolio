@@ -10,7 +10,7 @@
  top             : 400px                           ;
  left            : 50%                             ;
  transform       : translate(-50%, -50%)           ;
- font            : 3vw "Times New Roman", serif    ;
+ font            : 1vw "Times New Roman", serif    ;
  border-style    : solid                           ; 
  background-color: white                           ;
 }
@@ -36,10 +36,11 @@
 }
 
 img.icon{
- width : auto      ;
- height: 100%      ;
- float : left      ;
- margin: 0 15px 0 0;
+ max-width : 15vw      ;
+ width     : 100%      ;
+ height    : auto      ;
+ float     : left      ;
+ margin    : 0 15px 0 0;
 }
 
 .section-one {
