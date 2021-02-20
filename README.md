@@ -1,6 +1,6 @@
-#  Creating a Static Website using Static Site Generators (SSGs)
+#  Creating a Static Website using SSGs
 
-The SSG used for this project is [HUGO](https://gohugo.io/) v0.80 extended. To download and install `hugo`, visit: [hugo releases](https://github.com/gohugoio/hugo/releases). 
+The static site generator (SSG) used for this project is [HUGO](https://gohugo.io/) v0.80 extended. To download and install `hugo`, visit: [hugo releases](https://github.com/gohugoio/hugo/releases). 
 
 ## References
 
