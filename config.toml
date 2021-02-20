@@ -1,10 +1,11 @@
 baseURL      = "http://example.org/"
 languageCode = "en-us"
-title        = "oameed noakoasteen"
+title        = "oameed's portfolio"
 theme        = "oameed"
 
 [params]
  user        = "Oameed Noakoasteen"
+ copyright   = "oameed noakoasteen"
  LinkedIn    = "https://www.linkedin.com/in/oameed"
  Scholar     = "https://scholar.google.com/citations?user=XvXDLB8AAAAJ&hl=en"
  Orcid       = "https://orcid.org/0000-0001-6655-3378"

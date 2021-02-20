@@ -100,6 +100,12 @@ img.icon{
  text-align: justify           ;
 }
 
+.pub {
+ font-size: 0.9vw             ;
+ border   : 1px solid #8B0000 ;
+ color    :           #8B0000 ;
+ padding  : 2px 2px 2px 2px   ;
+}
 
 .machinelearning {
  font-size: 0.9vw          ;
