@@ -1,176 +1,210 @@
+:root{
+
+ /*parameters: header        section*/
+ --header-height-ratio  : 0.2000;
+ --font-size-headerH1   : 2.75vw;
+ --Border-Size          : 0.35vw;
+ 
+ /*parameters: header ribbon section*/
+ --hribbon-height-ratio : 0.0650;
+ --hribbon-padding-ratio: 0.4500;
+ --iconlink-Max-Width   : 1.80vw;
+ 
+ /*parameters: content       section*/
+ --font-size-headerH2   : 2.00vw;
+ --font-size-headerH4   : 1.50vw;
+ --icon-Max-Width       : 18.0vw;
+ --icon-Margin          : 1.00vw;
+ --iconsmall-Max-Width  : 1.30vw;
+ --iconrepolink-Mx-Width: 1.50vw;
+ --section-one-Left     : 7.50vw;
+ --section-one-Margin   : 1.00vw;
+ --section-one-Padding  : 1.00vw; 
+ --section-one-Height   : 1.4500; /*height coefficient for                  section one*/
+ --section-one-eH       : 0.1700; /*height coefficient for each element  in section one*/
+ --section-one-Border   : 0.17vw;
+ --section-one-Font-Size: 1.20vw;
+ --section-one-Info-Left: 3.50vw;
+ --section-two-Height   : 5.5000; /*height             for                  section two*/ /*8*/
+ --section-two-eH       : 0.1650; /*height coefficient for each element  in section two*/
+ --label-Font-Size      : 0.95vw;
+ --label-Border-Size    : 0.15vw;
+ --lable-Padding        : 0.15vw;
+
+ /*parameters: footer ribbon section*/
+ --fribbon-height-ratio : 0.0480;
+ --fribbon-margin-ratio : 0.0100;
+
+/*parameters: footer ribbon section*/
+ --footer-Font-Size     : 1.00vw; 
+}
+
+/*HEADER        SECTION*/
 .header {
- width          : 100%               ;
- height         : 350px              ;
- background     : url("../cover.jpg");
- background-size: cover              ;
+ width           : 100%                                                                                   ;
+ height          : calc(100vw * var(--header-height-ratio))                                               ;
+ background      : url("../cover.jpg")                                                                    ;
+ background-size : cover                                                                                  ;
 }
 
 .name {
- position        : absolute                        ;
- top             : 350px                           ;
- left            : 50%                             ;
- transform       : translate(-50%, -50%)           ;
- font            : 1vw "Times New Roman", serif    ;
- border-style    : solid                           ; 
- background-color: white                           ;
-}
-
-.hribbon{
- text-align: center     ;
- height    : 100px      ;
- padding   : 60px 0 0 0 ;
-}
-
-.fribbon {
- text-align: center        ;
- margin    : 20px 0 20px 0 ;
-}
-
-.footer {
- text-align: center;
+ position        : absolute                                                                               ;
+ top             : calc(100vw * var(--header-height-ratio))                                               ;
+ left            : 50%                                                                                    ;
+ transform       : translate(-50%, -50%)                                                                  ;
+ font            : 1vw "Times New Roman", serif                                                           ;
+ border          : var(--Border-Size) solid Black                                                         ;
+ background-color: white                                                                                  ; 
 }
 
 .responsiveH1 {
- font-size:2.75vw;
-}
-.responsiveH2 {
- font-size:2vw;
+ font-size       : var(--font-size-headerH1)                                                              ;
 }
 
-.responsiveH4 {
- font-size:1.5vw;
-}
-
-#content {
- position: relative;
- height  : 1600px  ;                             /*tune         */
-/* background-color: Gray;                       /*for debugging*/
-}
-
-img.icon{
- max-width : 18vw      ;
- width     : 100%      ;
- height    : auto      ;
- float     : left      ;
- margin    : 0 15px 0 0;
-}
-
-.iconsmall {
- max-width: 1.3vw ;
- width    : 100%  ;
- height   : auto  ;
-}
-
-.iconrepolink {
- max-width: 1.5vw ;
- width    : 100%  ;
- height   : auto  ;
+/*HEADER RIBBON SECTION*/
+.hribbon{
+ text-align      : center                                                                                 ;
+ padding         : calc(3.5*var(--section-one-Margin )) 0 var(--section-one-Margin ) 0                    ;
 }
 
 .iconlink {
- max-width: 1.8vw ;
- width    : 100%  ;
- height   : auto  ;
+ max-width       : var(--iconlink-Max-Width)                                                              ;
+ width           : 100%                                                                                   ;
+ height          : auto                                                                                   ;
+}
+
+/*CONTENT       SECTION*/
+.responsiveH2 {
+ font-size       : var(--font-size-headerH2)                                                              ;
+}
+
+.responsiveH4 {
+ font-size       : var(--font-size-headerH4)                                                              ;
+}
+
+.spacing {
+ margin: calc(1.20*var(--section-one-Margin)) 0 0 0;
+}
+
+#content {
+ padding         : var(--section-one-Margin ) 0 var(--section-one-Margin ) 0                              ;
+}
+
+img.icon{
+ max-width       : var(--icon-Max-Width)                                                                  ;
+ width           : 100%                                                                                   ;
+ height          : auto                                                                                   ;
+ float           : left                                                                                   ;
+ margin          : 0 var(--icon-Margin) 0 0                                                               ;
+}
+
+.iconsmall {
+ max-width       : var(--iconsmall-Max-Width)                                                             ;
+ width           : 100%                                                                                   ;
+ height          : auto                                                                                   ;
+}
+
+.iconrepolink {
+ max-width       : var(--iconrepolink-Mx-Width)                                                           ;
+ width           : 100%                                                                                   ;
+ height          : auto                                                                                   ;
 }
 
 .section-one {
- position   : absolute                      ;
- left       : 50px                          ;    
- width      : calc(100% - 100px)            ;
- margin     : 10px 0 0    0                 ;
- padding    : 25px 0 25px 25px              ;
- height     : 350px                         ;    /*tune*/
- border     : 2px solid Black               ;
- font       : 1.2vw "Times New Roman", serif;
+ position        : relative                                                                               ;
+ left            : var(--section-one-Left)                                                                ;
+ width           : calc(100% - calc(2*var(--section-one-Left)))                                           ;
+ height          : calc(calc(100vw * var(--section-one-eH))*var(--section-one-Height))                    ;
+ margin          : 0 0 var(--section-one-Margin ) 0                                                       ;
+ padding         : var(--section-one-Padding) 0 var(--section-one-Padding) var(--section-one-Padding)     ;
+ border          : var(--section-one-Border) solid Black                                                  ;
+ font            : var(--section-one-Font-Size) "Times New Roman", serif                                  ;
+}
+
+.section-two {
+ position        : relative                                                                               ;
+ left            : var(--section-one-Left)                                                                ;
+ width           : calc(100% - calc(2*var(--section-one-Left)))                                           ;
+ height          : calc(calc(100vw * var(--section-two-eH))*var(--section-two-Height))                    ;
+ margin          : 0 0 0 0                                                                                ;
+ padding         : var(--section-one-Padding) 0 var(--section-one-Padding) var(--section-one-Padding)     ;
+ border          : var(--section-one-Border) solid Black                                                  ;
+ font            : var(--section-one-Font-Size) "Times New Roman", serif                                  ;
 }
 
 .section-one-info-block {
- position  : relative          ;
- left      : 50px              ;
- width     : calc(100% - 100px);
- height    : 220px             ;
- margin    : 10px 0 0    0     ;
- padding   : 10px 0 10px 0     ;
- display   : block             ; 
- text-align: justify           ;
-}
-
-
-
-.section-two {
- position   : absolute                      ;
- top        : 360px                         ;
- left       : 50px                          ;    
- width      : calc(100% - 100px)            ;
- margin     : 10px 0 0    0                 ;
- padding    : 25px 0 25px 25px              ;
- height     : 1200px                         ;      /*tune*/
- border     : 2px solid Black               ;
- font       : 1.2vw "Times New Roman", serif;
+ position        : relative                                                                               ;
+ left            : var(--section-one-Info-Left)                                                           ;
+ width           : calc(100% - calc(2*var(--section-one-Info-Left)))                                      ;
+ height          : calc(100vw * var(--section-one-eH))                                                    ;
+ padding         : var(--section-one-Padding) 0 0 0                                                       ;
+ display         : block                                                                                  ; 
+ text-align      : justify                                                                                ;
 }
 
 .section-two-info-block {
- position  : relative          ;
- left      : 50px              ;
- width     : calc(100% - 100px);
- height    : 200px             ;
- margin    : 10px 0 0 0        ;
- padding   : 10px 0 0 0        ;
- display   : block             ; 
- text-align: justify           ;
-}
-
-.section-two-info-block-special {
- position  : relative          ;
- left      : 50px              ;
- width     : calc(100% - 100px);
- height    : 250px             ;
- margin    : 10px 0 0 0        ;
- padding   : 10px 0 0 0        ;
- display   : block             ; 
- text-align: justify           ;
+ position        : relative                                                                               ;
+ left            : var(--section-one-Info-Left)                                                           ;
+ width           : calc(100% - calc(2*var(--section-one-Info-Left)))                                      ;
+ height          : calc(100vw * var(--section-two-eH))                                                    ;
+ padding         : var(--section-one-Padding) 0 0 0                                                       ;
+ display         : block                                                                                  ; 
+ text-align      : justify                                                                                ;
 }
 
 .pub {
- font-size: 0.95vw             ;
- border   : 1px solid #8B0000 ;
- color    :           #8B0000 ;
- padding  : 2px 2px 2px 2px   ;
+ font-size       : var(--label-Font-Size)                                                                 ;
+ border          : var(--label-Border-Size) solid #8B0000                                                 ;
+ color           :                                #8B0000                                                 ;
+ padding         : var(--lable-Padding) var(--lable-Padding) var(--lable-Padding) var(--lable-Padding)    ;
+
 }
 
 .machinelearning {
- font-size: 0.95vw          ;
- border   : 1px solid Blue ;
- color    :           Blue ;
- padding  : 2px 2px 2px 2px;
+ font-size       : var(--label-Font-Size)                                                                 ;
+ border          : var(--label-Border-Size) solid Blue                                                    ;
+ color           :                                Blue                                                    ;
+ padding         : var(--lable-Padding) var(--lable-Padding) var(--lable-Padding) var(--lable-Padding)    ;
 }
 
 .cem {
- font-size: 0.95vw             ;
- border   : 1px solid #800080 ;
- color    :           #800080 ;
- padding  : 2px 2px 2px 2px   ;
+ font-size       : var(--label-Font-Size)                                                                 ;
+ border          : var(--label-Border-Size) solid #800080                                                 ;
+ color           :                                #800080                                                 ;
+ padding         : var(--lable-Padding) var(--lable-Padding) var(--lable-Padding) var(--lable-Padding)    ;
 }
 
 .sigp {
- font-size: 0.95vw             ;
- border   : 1px solid #8A2BE2 ;
- color    :           #8A2BE2 ;
- padding  : 2px 2px 2px 2px   ;
+ font-size       : var(--label-Font-Size)                                                                 ;
+ border          : var(--label-Border-Size) solid #8A2BE2                                                 ;
+ color           :                                #8A2BE2                                                 ;
+ padding         : var(--lable-Padding) var(--lable-Padding) var(--lable-Padding) var(--lable-Padding)    ;
 }
 
 .personalproject {
- font-size: 0.95vw          ;
- border   : 1px solid Red  ;
- color    :           Red  ;
- padding  : 2px 2px 2px 2px;
+ font-size       : var(--label-Font-Size)                                                                 ;
+ border          : var(--label-Border-Size) solid Red                                                     ;
+ color           :                                Red                                                     ;
+ padding         : var(--lable-Padding) var(--lable-Padding) var(--lable-Padding) var(--lable-Padding)    ;
 }
 
 .courseproject {
- font-size: 0.95vw          ;
- border   : 1px solid Green;
- color    :           Green;
- padding  : 2px 2px 2px 2px;
+ font-size       : var(--label-Font-Size)                                                                 ;
+ border          : var(--label-Border-Size) solid Green                                                   ;
+ color           :                                Green                                                   ;
+ padding         : var(--lable-Padding) var(--lable-Padding) var(--lable-Padding) var(--lable-Padding)    ;
+}
+
+/*FOOTER RIBBON SECTION*/
+.fribbon {
+ text-align      : center                                                                                 ;
+ padding         : var(--section-one-Margin ) 0 var(--section-one-Margin ) 0                              ;
+}
+
+/*FOOTER        SECTION*/
+.footer {
+ text-align      : center                                                                                 ;
+ font-size       : var(--footer-Font-Size)                                                                ;
 }
 
 
