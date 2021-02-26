@@ -26,7 +26,7 @@ The following procedure describes how to create a website by first creating a th
    * copy `bootstrap.min.css` to `website/themes/mytheme/static/css` directory.
 6. insert the following in `website/config.toml`:
    * `theme="mytheme"`
-7. customize `website/config.toml` and the contents of `website/mytheme` directory to arrive at a rough sketch for the intended design. At any point during the entire process, the site can be viewed by:
+7. customize `website/config.toml` and the contents of `website/themes/mytheme` directory to arrive at a rough sketch for the intended design. At any point during the entire process, the site can be viewed by:
    * `cd` to `website`
    * `hugo server`
    * on a browser, go to `localhost:1313`
