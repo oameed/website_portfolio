@@ -25,7 +25,7 @@
  --section-one-Border   : 0.17vw;
  --section-one-Font-Size: 1.20vw;
  --section-one-Info-Left: 3.50vw;
- --section-two-Height   : 5.5000; /*height             for                  section two*/ /*8*/
+ --section-two-Height   : 9.2500; /*height             for                  section two*/ /*8*/
  --section-two-eH       : 0.1650; /*height coefficient for each element  in section two*/
  --label-Font-Size      : 0.95vw;
  --label-Border-Size    : 0.15vw;
@@ -80,6 +80,10 @@
 
 .responsiveH4 {
  font-size       : var(--font-size-headerH4)                                                              ;
+}
+
+.__dimensions_badge_embed__ {
+float: right                                                                                              ;
 }
 
 .spacing {
