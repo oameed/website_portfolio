@@ -17,6 +17,9 @@
  --icon-Margin          : 1.00vw;
  --iconsmall-Max-Width  : 1.30vw;
  --iconrepolink-Mx-Width: 1.50vw;
+ --section-zero-Left    : 25.0vw;
+ --section-zero-Height  : 1.4500;
+ --section-zero-Margin  : 2.50vw;
  --section-one-Left     : 7.50vw;
  --section-one-Margin   : 1.00vw;
  --section-one-Padding  : 1.00vw; 
@@ -112,6 +115,18 @@ img.icon{
  max-width       : var(--iconrepolink-Mx-Width)                                                           ;
  width           : 100%                                                                                   ;
  height          : auto                                                                                   ;
+}
+
+.section-zero {
+ position        : relative                                                                               ;
+ left            : var(--section-zero-Left)                                                               ;
+ width           : calc(100% - calc(2*var(--section-zero-Left)))                                          ;
+ height          : var(--section-zero-Height)                                                             ; 
+ margin          : 0 0 var(--section-zero-Margin ) 0                                                      ;
+ padding         : 0 0 0                          0                                                       ;
+ /*border          : var(--section-one-Border) solid Black                                                  ;*/
+ font            : var(--section-one-Font-Size) "Times New Roman", serif                                  ;
+ text-align      : justify                                                                                ;
 }
 
 .section-one {
